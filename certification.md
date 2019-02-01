@@ -24,7 +24,7 @@ It is well worth getting certified if you are looking to work on Google Cloud Pl
 Based on third-party tutorials
 
 ```
-Hadoop, Spark, Mapreduce, Hive, Hbase, pig & RDBMS
+Hadoop, Spark, MapReduce, Hive, Hbase, pig & RDBMS
 ```
 
 ### Resources
@@ -35,7 +35,5 @@ https://cloud.google.com/certification/
 
 ##### Other Google certifications
 
-https://developers.google.com/training/certification/
-
-
+[https://developers.google.com/training/certification/](https://developers.google.com/training/certification/)
 
