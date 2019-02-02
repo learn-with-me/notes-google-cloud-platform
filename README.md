@@ -7,7 +7,7 @@ Something
 ##### Compute
 
 * App engine
-* Compute engine
+* Compute engine - fully controllable including configuration, load balancing, administration & management
 * Kubernetes engine
 * Cloud functions
 
