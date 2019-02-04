@@ -33,6 +33,9 @@ Machine Types to choose from:
 
 * Customizable load-balancing and auto-scaling across homogeneous VMs
 * Direct access to GPUs that can be used to accelerate specific workloads
+* VMs completely run and maintained by the you
+* Use when OS choices and changes are very important
+* For any workload needing a specific OS
 
 #### Pre-emptible Instances
 
