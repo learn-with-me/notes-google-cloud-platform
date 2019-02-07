@@ -8,4 +8,8 @@
   * [App Engine](gcp-compute/app-engine.md)
   * [Compute Engine](gcp-compute/compute-engine.md)
   * [Kubernetes Engine](gcp-compute/kubernetes-engine.md)
+* [GCP Storage](gcp-storage.md)
+* [Kubernetes](kubernetes.md)
+  * [Cheatsheet](kubernetes/cheatsheet.md)
+* [HashiCorp Vault](hashicorp-vault.md)
 
