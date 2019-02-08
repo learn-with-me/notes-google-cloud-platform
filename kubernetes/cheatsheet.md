@@ -15,6 +15,9 @@ $ gcloud functions list
 $ gcloud config set project <project_id>
 $ gcloud config list
 $ gcloud app deploy
+
+# Enabling services
+$ gcloud services enable cloudkms.googleapis.com
 ```
 
 You can use kubectl command to control the cluster
