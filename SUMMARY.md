@@ -12,4 +12,5 @@
 * [Kubernetes](kubernetes.md)
   * [Cheatsheet](kubernetes/cheatsheet.md)
 * [HashiCorp Vault](hashicorp-vault.md)
+* [Terraform](terraform.md)
 
