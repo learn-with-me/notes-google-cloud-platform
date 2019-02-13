@@ -2,7 +2,7 @@
 
 This is what everyone keeps saying serverless application.
 
-> Function timeouts in 60 seconds. If you don't end it in time, You'll be charged for the whole 60 seconds
+> Function timeouts in 60 seconds by default unless set. If you don't end it in time, You'll be charged for the whole 60 seconds
 
 #### Trigger Types
 
@@ -37,6 +37,7 @@ Pub/Sub and Cloud Storage functions' trigger return the event object. Here is wh
 
 * HTTP functions can be ended by response.send\(\)
 * Other functions are ended as soon as the callback is finished
+  * You have the ability to automatically let the function retry on failure for pub/sub
 
 #### LifeCycle of a function
 
@@ -44,7 +45,7 @@ Pub/Sub and Cloud Storage functions' trigger return the event object. Here is wh
 * Spins up an instance of the cloud function
 * First call will have a cold start time, which can take around 500ms
 * It can take load upto 100,000 calls per second. If thats not enough, it'll automatically create other instances of the same function and setup a load balancer on top of it. Good side is that there is no charge for the infrastructure, just its use. This auto-scaling also supports spinning up new instances in case of crashes automatically.
-* If there are no calls to the function for about 60 seconds, Google spins down the instance to zero
+* If there are no calls to the function for some time, Google spins down the instance to zero
 
 
 
