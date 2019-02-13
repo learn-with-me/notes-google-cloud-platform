@@ -35,6 +35,14 @@ $ gcloud app browse                    # Open the application page in browser
 $ gcloud app describe                  # Displays GCloud app information
 ```
 
+###### Beta Functions
+
+```
+$ gcloud beta functions list                # List all the cloud functions in the project
+$ gcloud beta functions describe <name>     # Describe a cloud function from the project
+$ gcloud beta functions logs read <name>    # Read logs for a function
+```
+
 ###### Help
 
 ```
