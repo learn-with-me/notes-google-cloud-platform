@@ -13,4 +13,5 @@
   * [Cheatsheet](kubernetes/cheatsheet.md)
 * [HashiCorp Vault](hashicorp-vault.md)
 * [Terraform](terraform.md)
+* [Cloud Functions](cloud-functions.md)
 
