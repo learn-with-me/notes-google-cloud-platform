@@ -6,9 +6,11 @@ This is what everyone keeps saying serverless application.
 
 #### Trigger Types
 
-* HTTP Trigger
-* Pub/Sub Trigger
-* Storage Trigger
+* HTTP functions - invoked at most once
+  * HTTP Trigger
+* Background functions - invoked at least once. Can be retried on failed
+  * Pub/Sub Trigger
+  * Storage Trigger
 
 #### Event Object
 
