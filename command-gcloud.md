@@ -38,9 +38,13 @@ $ gcloud app describe                  # Displays GCloud app information
 ###### Beta Functions
 
 ```
-$ gcloud beta functions list                # List all the cloud functions in the project
-$ gcloud beta functions describe <name>     # Describe a cloud function from the project
-$ gcloud beta functions logs read <name>    # Read logs for a function
+$ gcloud beta functions list                            # List all the cloud functions in the project
+$ gcloud beta functions describe <name>                 # Describe a cloud function from the project
+$ gcloud beta functions logs read <name>                # Read logs for a function
+$ gcloud beta functions deploy <name> --trigger-http    # Deploy to production
+$ gcloud beta functions deploy psHelloHTTP --entry-point <name> --trigger-http
+$ gcloud beta functions deploy <name> --trigger-topic <topicName>
+$ gcloud beta functions call psHelloHTTP --data={"message": ""}
 ```
 
 ###### Help
