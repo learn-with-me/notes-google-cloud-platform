@@ -14,4 +14,5 @@
 * [HashiCorp Vault](hashicorp-vault.md)
 * [Terraform](terraform.md)
 * [Cloud Functions](cloud-functions.md)
+* [Cloud Pub/Sub](cloud-pubsub.md)
 
