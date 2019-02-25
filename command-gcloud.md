@@ -13,15 +13,21 @@ To be able to call GCP APIs, it has a command called `gcloud`.
 
 ```
 $ gcloud version
-$ gcloud auth login
 $ gcloud info --show-log
-$ gcloud config set project <project-id>
 $ gcloud init <project>
 
 Verification
-$ gcloud auth list
 $ gcloud config list                        # List all the config except the default ones
 $ gcloud config list --all                  # Lists all the configs including defaults
+$ gcloud config set project <project-id>
+
+Authentication
+$ gcloud auth login
+$ gcloud auth list                            # List all the accounts you're signed-in with
+$ gcloud config set account <account>         # Switch between logins
+
+Activate Service Account in local terminal
+gcloud auth activate-service-account <service_name>  --key-file <key_file_path>
 ```
 
 ###### Application
