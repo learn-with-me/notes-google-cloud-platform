@@ -15,4 +15,5 @@
 * [Terraform](terraform.md)
 * [Cloud Functions](cloud-functions.md)
 * [Cloud Pub/Sub](cloud-pubsub.md)
+* [BigTable](bigtable.md)
 
