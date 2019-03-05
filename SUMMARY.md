@@ -16,4 +16,5 @@
 * [Cloud Functions](cloud-functions.md)
 * [Cloud Pub/Sub](cloud-pubsub.md)
 * [BigTable](bigtable.md)
+* [VPC Networks](vpc-networks.md)
 
