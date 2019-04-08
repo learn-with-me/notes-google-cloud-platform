@@ -18,4 +18,5 @@
 * [BigTable](bigtable.md)
 * [VPC Networks](vpc-networks.md)
 * [Cloud CDN](cloud-cdn.md)
+* [Deployment Manager](deployment-manager.md)
 
